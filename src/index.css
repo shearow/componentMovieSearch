@@ -1,0 +1,38 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; /* 1rem = 10px */
+  scroll-behavior: smooth;
+  font-family: sans-serif;
+}
+*,
+*::before,
+::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-size: 1.6rem;
+  background-color: rgb(84, 62, 62);
+}
+a {
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+button,
+input,
+textarea {
+  outline: none;
+}
+
+/*** Utilities  ***/
+.container {
+  width: 95%;
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+/***  ***/
